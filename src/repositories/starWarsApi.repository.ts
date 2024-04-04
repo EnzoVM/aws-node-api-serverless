@@ -1,8 +1,7 @@
 import { StarWarsApiInterface } from '../interfaces'
 import { StarWarsPlanetsApiResponse, StarWarsPeopleApiResponse } from '../responses'
 import axios, { AxiosInstance } from 'axios'
-import { SWAPI_BASE_URL } from '../constants/env.constant'
-import { TIMEOUT_APIS, SWAPI_ROUTES } from '../constants/app.constant'
+import { TIMEOUT_APIS, SWAPI_ROUTES, SWAPI_BASE_URL } from '../constants/app.constant'
 
 export class StarWarsApiRepository implements StarWarsApiInterface {
   private readonly axios: AxiosInstance

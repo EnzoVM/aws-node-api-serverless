@@ -19,7 +19,6 @@ provider:
       Resource: arn:aws:dynamodb:${aws:region}:${aws:accountId}:table/example-table-${self:provider.stage}
 
   environment:
-    SWAPI_BASE_URL: ${env:SWAPI_BASE_URL}
     DYNAMO_TABLE_NAME: example-table-${self:provider.stage}
 
 functions:

@@ -6,6 +6,9 @@ export const SWAPI_ROUTES = {
   planets: '/planets/'
 }
 
+// Base URL
+export const SWAPI_BASE_URL = 'https://swapi.py4e.com/api'
+
 // Object for translation into Spanish
 export const SPANISH_WORDS = {
   name: 'nombre',
