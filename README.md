@@ -25,17 +25,12 @@ cd aws-node-api-serverless
 ```bash
 npm install
 ```
-### 4. Variables de Entorno:
-Crea un archivo .env en la raíz del proyecto. Puedes utilizar el archivo .env.example proporcionado como plantilla. Aqui te doy un ejemplo para que puedas iniciar.
-```bash
-SWAPI_BASE_URL=https://swapi.py4e.com/api
-```
-### 5. Cuenta de AWS
+### 4. Cuenta de AWS
 Para configurar tus credenciales, primero asegúrate de tener una cuenta activa y obtén tus credenciales de acceso. Luego, utiliza el siguiente comando para registrarlas:
 ```bash
 aws configure
 ```
-### 6. Iniciar la Aplicación:
+### 5. Iniciar la Aplicación:
 ```bash
 npm run start
 ```
