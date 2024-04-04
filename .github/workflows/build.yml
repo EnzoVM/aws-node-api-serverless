@@ -51,8 +51,10 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Serverless Framework
-        run: npm install -g serverless
+      - name: Install Serverless Framework and plugins
+        run: |
+          npm install -g serverless
+          npm install serverless-offline serverless-esbuild
 
       - name: Serverless Deploy
         run: npm run start
