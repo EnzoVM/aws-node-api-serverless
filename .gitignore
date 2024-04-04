@@ -3,7 +3,8 @@ node_modules
 jspm_packages
 .esbuild
 .env
-README.md
+coverage
+test-report.xml
 
 # Serverless directories
 .serverless
