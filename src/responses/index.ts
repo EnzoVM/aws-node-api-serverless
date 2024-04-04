@@ -1,0 +1,5 @@
+export * from './starWarsPlanetsApi.response'
+export * from './starWarsPeopleApi.response'
+export * from './getStarWarsPlanets.response'
+export * from './getStarWarsPeople.response'
+export * from './createInsurancePolicy.response'
